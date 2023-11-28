@@ -1,0 +1,58 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #f4f4f4;
+    overflow: hidden; /* Asegura que los bordes redondos se apliquen correctamente */
+}
+
+nav ul {
+    list-style: none;
+    padding: 30px; 
+    margin: 0 auto;
+    width: 700px;
+
+}
+
+nav li {
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    display: block; 
+    margin-bottom: 10px; /* Agregamos un espacio entre elementos */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px; /* Agregamos bordes redondos a los enlaces */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Cambiamos el color de fondo al pasar el ratón sobre el enlace */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
